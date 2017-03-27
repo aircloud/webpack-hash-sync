@@ -26,7 +26,7 @@ plugins: [
 ],
 ```
 
-then each time we use `webpack`, the the file name of javascript file linked by the html will be changed automatically.
+then each time we use `webpack`, the file name of javascript file linked by the html will be synchronized automatically.
 
 *When we use the webpack hot loading，it is also OK. Remember sometimes we may reload the webpage otherwise we may get 404*
 
