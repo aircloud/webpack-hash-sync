@@ -1,0 +1,44 @@
+{
+  "name": "webpack-hash-sync",
+  "description": "sync the name of javascript file in the html file under the use of webpack",
+  "keywords": ["webpack","sync","nodejs","javascript"],
+  "author": {
+    "name": "Xiaotao Nie",
+    "email": "onlythen@yeah.net"
+  },
+  "maintainers": [
+    {
+      "name": "Xiaotao Nie",
+      "email": "onlythen@yeah.net"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Xiaotao Nie",
+      "email": "onlythen@yeah.net"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/aircloud/webpack-hash-sync/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "lodash": ">=3.5 <5"
+  },
+  "devDependencies": {
+    "webpack": "^1.7.3"
+  },
+  "directories": {},
+  "homepage": "https://github.com/aircloud/webpack-hash-sync",
+  "main": "index.js",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aircloud/webpack-hash-sync.git"
+  },
+  "scripts": {
+
+  },
+  "version": "0.1.0"
+}
