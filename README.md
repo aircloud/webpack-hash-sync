@@ -38,7 +38,7 @@ and the explaintion of the parameters is there:
 | ------| ------ | ------ | ------ |
 | html | Necessary | [] | need to be an array, each is the name of the html file to be need to be synchronized
 | file | Necessary | [] | need to be an array, each is a regular expression of the name of js file |
-| path | Optional | "" | the file path of the html file |
+| path | recommended | "" | the file path of the html file |
 | hash | Optional | true | When we use hash, it should be true| 
 | chunkhash | Optional | false | When we use chunkhash, it should be true| 
 
