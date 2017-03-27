@@ -16,7 +16,7 @@ the usage is easy:
 plugins: [
         //some other plugins...
         new WebpackHashSync({
-      		  html:["index.html"],
+      		html:["index.html"],
             file:["output.*?js","common.*?js"],
             path:path.join(__dirname, 'public/'),
             hash:true,
