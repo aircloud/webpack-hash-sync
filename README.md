@@ -28,15 +28,15 @@ plugins: [
 
 then each time we use `webpack`, the file name of javascript file linked by the html will be synchronized automatically.
 
-*When we use the webpack hot loading，it is also OK. Remember sometimes we may reload the webpage otherwise we may get 404*
+*When we use the webpack hot loading，it is also OK. Remember: sometimes we may reload the webpage otherwise we may get 404*
 
-Finally it use utf-8.
+Finally it uses utf-8.
 
-and the explaintion of the parameters is there:
+and there is the explaintion of the parameters :
 
 | parameter | Optional | Default | description |
 | ------| ------ | ------ | ------ |
-| html | Necessary | [] | need to be an array, each is the name of the html file to be need to be synchronized
+| html | Necessary | [] | need to be an array, each is the name of the html file that is needed to be synchronized
 | file | Necessary | [] | need to be an array, each is a regular expression of the name of js file |
 | path | recommended | "" | the file path of the html file |
 | hash | Optional | true | When we use hash, it should be true| 
