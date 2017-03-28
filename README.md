@@ -16,11 +16,11 @@ the usage is easy:
 plugins: [
         //some other plugins...
         new WebpackHashSync({
-      		html:["index.html"],
-            file:["output.*?js","common.*?js"],
-            path:path.join(__dirname, 'public/'),
-            hash:true,
-            chunkhash:false
+	      		html:["index.html"],
+	            file:["output.*?js","common.*?js"],
+	            path:path.join(__dirname, 'public/'),
+	            hash:true,
+	            chunkhash:false
         }),
         //some other plugins...
 ],
@@ -47,6 +47,9 @@ and there is the explaintion of the parameters :
 
 If you have problems, please visit [here](https://github.com/aircloud/webpack-hash-sync/issues) and I will handle the problem in at most 24 hours.
 
+#### Github
+
+https://github.com/aircloud/webpack-hash-sync
 
 #### license
 
