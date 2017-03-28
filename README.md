@@ -13,6 +13,11 @@ npm install webpack-hash-sync
 the usage is easy:
 
 ```
+//import
+const WebpackHashSync = require('webpack-hash-sync');
+
+//in the webpack config:
+
 plugins: [
         //some other plugins...
         new WebpackHashSync({
